@@ -1,0 +1,7 @@
+Devolve, Contains scripts to be used by the Developer to setup his/her
+workspace with favorite tools in one single step.
+
+Like, you run a script and you get your favorite editor, programming
+language, version control system, organized workspace layout etc..
+
+
