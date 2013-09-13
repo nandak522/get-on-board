@@ -1,13 +1,13 @@
-Devolve, Contains scripts to be used by the Developer to setup his/her
-workspace with favorite tools in one single step.
+Devolve, Contains scripts to be used by the Developer to setup the work 
+environment with favorite tools in one single step.
 
 Like, you run a script and you get your favorite editor, programming
 language, version control system, organized workspace layout etc..
-installed in one single shot.
+created & installed in one single shot.
 
-No, sudo apt-get install vim or git or svn or python.
-Just run, devolve.sh.
+No `sudo apt-get install vim` or `git` or `svn` or `python`.
+Just run, `devolve.sh`.
 
-devolve.sh will be driven through through a requirements file,
-(like pip requirements file). Configure what you want there, and
+`devolve.sh` will be driven through a requirements file,
+(like pip requirements file). Configure what you want in that file and
 run devolve.sh to install what you have configured.
