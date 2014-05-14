@@ -14,13 +14,15 @@ what you have configured.
 
 Background
 ---
-Inspiration : https://speakerd.s3.amazonaws.com/presentations/5065e2abe64bdf0002011631/boxen.pdf Slide 37
+Inspiration : [Boxen Slide 37](https://speakerd.s3.amazonaws.com/presentations/5065e2abe64bdf0002011631/boxen.pdf)
 
 Goal
 ---
 Setting up the below things by running one single command.
 
+```sh
 curl -s http://onboard.domain.com/get-on-board.sh > /tmp/gob.sh && bash /tmp/gob.sh
+```
 
 And this would install the below stuff on your workstation(only linux for now):
 
@@ -47,10 +49,10 @@ And this would install the below stuff on your workstation(only linux for now):
         Pomodoro Indicator
         Zeal docs
 
-1. That get-on-board shell file will be hosted under a `go` server
-2. Once we run the get-on-board.sh file, it downloads the go binary
-3. once go is installed, each task is performed
+1. That `get-on-board.sh` file will be hosted under a `go` server
+2. Once we run the `get-on-board.sh` file, it downloads the go binary
+3. once `go` is installed, each task is performed
 
 Incremental release plan
 ---
-1. Install python
+1. Install [pyenv](https://github.com/yyuu/pyenv) using Go
