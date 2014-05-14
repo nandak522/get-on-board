@@ -1,38 +1,23 @@
-# mac cruft
-.DS_Store
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
 
-#emacs cruft
-*~
-*#*
-*.pyc
-*flymake.py
-.ropeproject
+# Folders
+_obj
+_test
 
-# vim cruft
-*.swp
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
 
-# wing cruft
-*.wpr
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
 
-#virtualenv cruft
-bin
-lib
-include
-bootstrap.py
-develop-eggs
-.installed.cfg
+_testmain.go
 
-#python cruft
-*.egg
-*.egg-info
-.noseids
-*prof*
-pip-log.txt
-
-#test cruft
-*_test
-.coverage
-temp
-
-# backup cruft
-*.old
+*.exe
+*.test
